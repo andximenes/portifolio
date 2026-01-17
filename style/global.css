@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* fonts */
+    --asap-font-family: "Asap", sans-serif;
+    --inconsolata-font-family: "Inconsolata", monospace;
+    --maven-pro-font-family: "Maven Pro", sans-serif;
+
+    --title-lg: 700 56px/120% var(--asap-font-family);
+    --title-md: 700 24px/120% var(--asap-font-family);
+    --title-sm: 700 16px/120% var(--asap-font-family);
+
+    --subtitle: 400 20px/120% var(--inconsolata-font-family);
+    
+    --text-me: 16px/140% var(--maven-pro-font-family);
+    --text-sm: 14px/140% var(--maven-pro-font-family);
+
+    /* colors */
+    --red:#E3646E
+
+}
