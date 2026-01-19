@@ -98,6 +98,10 @@
             & div:nth-child(1){
                 font:var(--subtitle);
                 color: var(--gray200);
+
+                & span{
+                    color: var(--red);
+                }
             }
 
             & div:nth-child(2){
