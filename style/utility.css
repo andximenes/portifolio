@@ -1,0 +1,26 @@
+header{
+    height: 61px; 
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & .content{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 8px;
+
+      & p{
+        color: var(--red);
+        font: var(--text-sm);
+      }
+
+      & h2{
+        color: var(--gray100);
+        font: var(--title-md);
+      }
+    }
+  }

@@ -1,156 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifílio Dev - André Ximenes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio Dev - André Ximenes</title>
 
-    <link rel="stylesheet" href="./style/index.css">
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="./style/index.css">
 
-    <!-- Asap font -->
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Inconsolata font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-    <!-- Maven Pro -->
-     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class=".container">
-        <div class="intro">
-            <img class="intro-bg" src="/assets/images/Background_Intro.svg" alt="">
+  <main class="container">
+    <!-- Intro -->
+    <section class="intro" aria-label="Apresentação">
+      <img class="intro-bg" src="/assets/images/Background_Intro.svg" alt="" aria-hidden="true">
 
-            <div class="info">
-              <header>
-                    <div class="avatar">
-                        <img class="code-icon" src="./assets/icons/Code.svg" alt="">
+      <div class="info">
+        <header aria-label="Informações do desenvolvedor">
+          <div class="avatar">
+            <img class="code-icon" src="./assets/icons/Code.svg" alt="" aria-hidden="true">
 
-                        <div class="user">
-                            <img class="photo-perfil" src="./assets/images/photo.jfif" alt="">
-                        </div>
-                    </div>
-
-                    <div class="text">
-                        <div>
-                            Hello World! Meu nome é <span>André Ximenes</span> e sou
-                        </div>
-                        <div>
-                            Desenvolvedor Fullstack
-                        </div>
-                        <div>
-                            Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
-                        </div>
-                        
-                    </div>
-              </header>
-              <div class="tags">
-                <div>
-                    <img class="icons" src="./assets/icons/GitHub.svg" alt="">
-                    <span>
-                        GitHub
-                    </span>
-                </div>
-                <div>
-                    <img class="icons" src="./assets/icons/HTML.svg" alt="">
-                    <span>
-                        HTML
-                    </span>
-                </div>
-                <div>
-                    <img class="icons" src="./assets/icons/CSS.svg" alt="">
-                    <span>
-                        CSS
-                    </span>
-                </div>
-                <div>
-                    <img class="icons" src="./assets/icons/JavaScript.svg" alt="">
-                    <span>
-                        JavaScript
-                    </span>
-                </div>
-                <div>
-                    <img class="icons" src="./assets/icons/React.svg" alt="">
-                    <span>
-                        React
-                    </span>
-                </div>
-                <div>
-                    <img class="icons" src="./assets/icons/Node.js.svg" alt="">
-                    <span>
-                        Node
-                    </span>
-                </div>
-              </div>
+            <div class="user">
+              <img class="photo-perfil" src="./assets/images/photo.jfif" alt="Foto de perfil de André Ximenes">
             </div>
+          </div>
 
-            <div class="box-doubledown">
-                <img src="./assets/icons/CaretDoubleDown.svg" alt="">
-            </div>
+          <div class="text">
+            <p>
+              Hello World! Meu nome é <span>André Ximenes</span> e sou
+            </p>
+
+            <h1>Desenvolvedor Fullstack</h1>
+
+            <p>
+              Transformo necessidades em aplicações reais, evolventes e funcionais.
+              Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo
+              com soluções inovadoras e eficazes para desafios complexos.
+            </p>
+          </div>
+        </header>
+
+        <!-- Tecnologias -->
+        <ul class="tags" aria-label="Tecnologias" role="list">
+          <li>
+            <img class="icons" src="./assets/icons/GitHub.svg" alt="" aria-hidden="true">
+            <span>GitHub</span>
+          </li>
+          <li>
+            <img class="icons" src="./assets/icons/HTML.svg" alt="" aria-hidden="true">
+            <span>HTML</span>
+          </li>
+          <li>
+            <img class="icons" src="./assets/icons/CSS.svg" alt="" aria-hidden="true">
+            <span>CSS</span>
+          </li>
+          <li>
+            <img class="icons" src="./assets/icons/JavaScript.svg" alt="" aria-hidden="true">
+            <span>JavaScript</span>
+          </li>
+          <li>
+            <img class="icons" src="./assets/icons/React.svg" alt="" aria-hidden="true">
+            <span>React</span>
+          </li>
+          <li>
+            <img class="icons" src="./assets/icons/Node.js.svg" alt="" aria-hidden="true">
+            <span>Node</span>
+          </li>
+        </ul>
+      </div>
+        
+      <!-- Setinha-->
+      <a class="box-doubledown" href="#projects" aria-label="Ir para a seção de projetos">
+        <img src="./assets/icons/CaretDoubleDown.svg" alt="" aria-hidden="true">
+      </a>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section-box" id="projects" aria-label="Projetos">
+      <header>
+        <div class="content">
+          <p>Meu trabalho</p>
+          <h2 id="projects-title">Veja os projetos em destaque</h2>
         </div>
+      </header>
 
-        <div class="projects">
-            <header >
-                <div class="content">
-                    <p>Meu trabalho</p>
-                    <H2>Veja os projetos em destaque</H2>
-                </div>
-            </header>
-
-            <div class="grid">
-                <a href="https://github.com/andximenes/projeto-3-Travelgram.git" class="box" target="_blank">
-                    <div class="box-image">
-                        <img class="thumble" src="./assets/images/Thumbnail_Project-01.png" alt="">
-                    </div>
-                    <div class="box-text">
-                        <h3>Travelgram</h3>
-                        <p>
-                            Projeto de uma página usando flexbox
-                        </p>
-                    </div>
-                </a>
-
-                <a href="https://github.com/andximenes/projeto-4-pagina-de-noticias.git" class="box" target="_blank">
-                    <div class="box-image">
-                        <img class="thumble" src="./assets/images/Thumbnail_Project-02.png" alt="">
-                    </div>
-                    <div class="box-text">
-                        <h3>Tech News</h3>
-                        <p>
-                            Homepage de um portal de notícias sobre a área de tecnologia usando Grid
-                        </p>
-                    </div>
-                </a>
-
-                <a href="https://github.com/andximenes/projeto-1-pagina-de-receita.git" class="box" target="_blank">
-                    <div class="box-image">
-                        <img class="thumble" src="./assets/images/Thumbnail_Project-03.png" alt="">
-                    </div>
-                    <div class="box-text">
-                        <h3>Página de receita</h3>
-                        <p>
-                            Página com o passo a passo de uma receita para cupcakes
-                        </p>
-                    </div>
-                </a>
-
-                <a href="https://github.com/andximenes/projeto-2-land-page-de-turismo.git" class="box" target="_blank">
-                    <div class="box-image">
-                        <img class="thumble" src="./assets/images/Thumbnail_Project-06.png" alt="">
-                    </div>
-                    <div class="box-text">
-                        <h3>Página de turismo</h3>
-                        <p>
-                            Página com as principais informações para quem quer viajar para Busan
-                        </p>
-                    </div>
-                </a>
+      <!-- Grid -->
+      <ul class="grid" role="list" aria-label="Projetos em destaque">
+        <li>
+          <a href="https://github.com/andximenes/projeto-3-Travelgram.git" class="box" target="_blank" rel="noopener noreferrer">
+            <div class="box-image">
+              <img class="thumble" src="./assets/images/Thumbnail_Project-01.png" alt="Thumbnail do projeto Travelgram">
             </div>
-            
-        </div>
-    </div>
+            <div class="box-text">
+              <h3>Travelgram</h3>
+              <p>Projeto de uma página usando flexbox</p>
+            </div>
+          </a>
+        </li>
 
+        <li>
+          <a href="https://github.com/andximenes/projeto-4-pagina-de-noticias.git" class="box" target="_blank" rel="noopener noreferrer">
+            <div class="box-image">
+              <img class="thumble" src="./assets/images/Thumbnail_Project-02.png" alt="Thumbnail do projeto Tech News">
+            </div>
+            <div class="box-text">
+              <h3>Tech News</h3>
+              <p>Homepage de um portal de notícias sobre a área de tecnologia usando Grid</p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/andximenes/projeto-1-pagina-de-receita.git" class="box" target="_blank" rel="noopener noreferrer">
+            <div class="box-image">
+              <img class="thumble" src="./assets/images/Thumbnail_Project-03.png" alt="Thumbnail do projeto Página de receita">
+            </div>
+            <div class="box-text">
+              <h3>Página de receita</h3>
+              <p>Página com o passo a passo de uma receita para cupcakes</p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/andximenes/projeto-2-land-page-de-turismo.git" class="box" target="_blank" rel="noopener noreferrer">
+            <div class="box-image">
+              <img class="thumble" src="./assets/images/Thumbnail_Project-06.png" alt="Thumbnail do projeto Página de turismo">
+            </div>
+            <div class="box-text">
+              <h3>Página de turismo</h3>
+              <p>Página com as principais informações para quem quer viajar para Busan</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section-box" id="services" aria-label="services">
+      <header class="header">
+        <div class="content">
+          <p>Meus serviços</p>
+          <h2 id="projects-title">Como posso ajudar o seu negócio</h2>
+        </div>
+      </header>
+
+      <ul class="grid" role="list" aria-label="Serviços" >
+        <li>
+            <div class="box-icon-card no-hover">
+                <div>
+                    <img src="./assets/icons/Devices.png" alt="" aria-hidden="true">
+                </div>
+                <div class="box-icon-text">
+                    <h3>Websites e Aplicativos</h3>
+                    <p>Desenvolvimento de interfaces</p>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="box-icon-card no-hover">
+                <div>
+                    <img src="./assets/icons/HardDrives.png" alt="" aria-hidden="true">
+                </div>
+                <div class="box-icon-text">
+                    <h3>API e banco de dados</h3>
+                    <p>Criação de serviços do sistema </p>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="box-icon-card no-hover">
+                <div>
+                    <img src="./assets/icons/Infinity.png" alt="" aria-hidden="true">
+                </div>
+                <div class="box-icon-text">
+                    <h3>DevOps</h3>
+                    <p>Gestão e infraestrutura da aplicação</p>
+                </div>
+            </div>
+        </li>
+        </ul>
+
+    </section>
+
+  </main>
 </body>
 </html>
